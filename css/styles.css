@@ -3,6 +3,12 @@
     --white: rgb(255, 255, 255);
     --link-list-text: rgb(117, 117, 117);
     --main-title: rgb(33, 33, 33);
+    --head-footer-bg: rgb(47, 48, 58);
+    --logo: rgb(0, 0, 0);
+    --teem-bg: rgb(245, 244, 250);
+    --pf-filter: rgb(245, 245, 245);
+    
+    --footer-contact: rgba(255, 255, 255, 0.6);
 }
 
 .visually-hidden {
@@ -20,7 +26,7 @@
 
 
 body {
-    font-family: roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -53,7 +59,7 @@ body {
 
 .main-head {
 
-    background: rgb(47, 48, 58);
+    background: var(--head-footer-bg);
     ;
 }
 
@@ -69,7 +75,7 @@ body {
     font-family: raleway;
     font-size: 26px;
     line-height: 1.19;
-    color: rgb(0, 0, 0);
+    color: var(--logo);
 
 }
 
@@ -126,7 +132,7 @@ body {
 }
 
 .teem {
-    background-color: rgb(245, 244, 250);
+    background-color: var(--teem-bg);
 }
 
 .teem-item {
@@ -150,7 +156,7 @@ body {
 /* footer */
 
 .footer {
-    background-color: rgba(47, 48, 58, 1);
+    background-color: var(--head-footer-bg);
 }
 
 .footer-logo {
@@ -164,7 +170,7 @@ body {
 
     font-size: 14px;
     line-height: 1.71;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-contact);
 }
 
 .contact-link-map {
@@ -179,7 +185,7 @@ body {
 /* Portfolio */
 
 .main-filter {
-    color: rgb(245, 245, 245);
+    color: var(--pf-filter);
 }
 
 .filter-button {
@@ -187,7 +193,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-    background-color: rgb(245, 244, 250);
+    background-color: var(--teem-bg);
     cursor: pointer;
     border-radius: 4px;
 }
