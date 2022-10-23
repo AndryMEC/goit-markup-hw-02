@@ -94,7 +94,8 @@ body {
 
 
 .header-list-link:hover,
-.header-list-link:focus {
+.header-list-link:focus,
+.header-list-link.current {
     color: var(--hover-color);
 }
 
